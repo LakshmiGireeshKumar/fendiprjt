@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+
+}
+.navv-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.helo {
+  position: relative;
+  z-index: 0;
+}
+.intext {
+  position: absolute;
+  z-index: 1;
+}
+.fendi-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  background-color: white;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+.icon1 {
+  margin-top: -0px;
+}
+.nav1 {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+.navv-fendi {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Meera Inimai", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: "Cantora One", sans-serif;
+
+
+
+  font-weight: 600;
+
+
+  font-size: 30px;
+  margin-left: -200px;
+  margin-top: 18px;
+}
+.nav2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.nav3 {
+  margin-right: 10px;
+  margin-right: 20px;
+}
+.icon2 {
+  font-size: 20px;
+}
+.inner-text {
+  position: absolute;
+  bottom: 5%;
+  left: 6%;
+  font-family: "Crimson Text", serif;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+}
+.button-container {
+  /* text-align: center; */
+  left: 5%;
+  margin-top: 20px;
+}
+
+.transparent-btn {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Slightly transparent background */
+  border: 1px solid white; /* White border */
+  /* color: white; White text */
+  backdrop-filter: blur(10px);
+  left: 5%;
+  bottom: 5%;
+
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease color 0.3s ease;
+  width: 300px;
+  height: 40px;
+}
+
+.transparent-btn:hover {
+  background-color: white;
+  /* background-color: rgba(255, 255, 255, 0.5); Increase transparency on hover */
+  color: black; /* Change text color on hover */
+}
+.bv
+{
+  position: absolute;
+ left: 1%;
+}
+.hv
+{
+  position: absolute;
+  /* bottom: 50%; */
+  left: 1%;
+  bottom: 200%;
+}
+.carousel-item {
+  position: relative;
+  height: 80%;
+}
+.carousel-inner {
+  width: 100%;
+  height: 80%;
+}
+.inner-text2 {
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+}
+.inner-text2 p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+.inner-text2 h2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+.col-md-6 {
+  position: relative;
+}
+.items-card-container {
+  display: block;
+  justify-content: center;
+  width: 90vh;
+}
+.item-card-row{
+  display: flex;
+  justify-content: center;
+
+ 
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.itemCards {
+  width: 342px;
+  height: 430px;
+  margin: 16px 2px;
+  margin-top: 29px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color:whitesmoke;
+  margin-bottom: 5px;
+  position: relative;
+}
+.photo20{
+  height: 360px;
+  width: 342px;
+}
+.itemCards h5{
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+  font-weight: 450;
+
+}
+
+
+/* .itemcards #img2:hover {
+  opacity: 0%;
+} */
+/* #img1 {
+  width: auto;
+} */
+.slider-dots {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #333;
+}
+
+.dot:hover {
+  cursor: pointer;
+  background-color: #777;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.overlay {
+  position: absolute;
+  left: 5%;
+  bottom: 6%;
+  color: white;
+  width: 100%;
+  margin-top: 300px;
+}
+.centered-text {
+  display: flex;
+  left: 5%;
+  bottom: 2%;
+  
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-family: "Crimson Text", serif;
+  font-weight: 800;
+}
+.centered-text.hv{
+  font-family: "Crimson Text", serif;
+  font-weight: 800;
+
+
+}
+.carousel-item
+{
+  position: relative;
+}
+
+.bgs
+{
+  position: absolute;
+  bottom: 28%;
+  /* margin: 0px; */
+}
+
+.space
+{
+  padding: 0px 0px;
+}
+
+.arr
+{
+  position: absolute;
+  z-index: 100;
+ left: 3%;
+ font-size: 18px;
+ border: 1px solid;
+ padding: 8px;
+ border-radius: 50%;
+}
+.hrt
+{
+  position: absolute;
+  z-index: 101;
+  right: 5%;
+  top: 5%;
+  font-size: 25px;
+}
+.arrr{
+  position: absolute;
+  z-index: 100;
+  right:2%;
+ font-size: 18px;
+ border: 1px solid;
+ padding: 8px;
+ border-radius: 50%;
+}
+.hv{
+  font-family: "Crimson Text", serif;
+
+}
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 10px;
+  color: #333;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hhh{
+  margin-left: -250px;
+}
+
+.newsletter-input {
+  display: flex;
+  margin-top: 5px;
+  
+}
+.vvv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.newsletter-input input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-right: none;
+  border: 1px solid;
+  border-radius: 4px 0 0 4px;
+  width: 250px;
+}
+#iii{
+  font-size: 9px;
+  color: black;
+}
+#iii:hover{
+  color: #ffffff;
+
+}
+.subscribe-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #000000;
+  background-color: white;
+  border: none;
+  border: 1px solid;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transform: all ease in out;
+}
+.subscribe-btn:hover{
+background-color: black;
+color: white;
+transition: 0.3s;
+}
+
+.footer-dropdowns {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-dropdowns select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #555;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 12px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust this value as needed */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+.mmm{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+
+}
+.nnn{
+  width: 240px;
+  height: 35px;
+  margin-top:17px;
+  border: 1px solid;
+  border-radius: 2px;
+  text-align: center;
+  transform: all ease in out;
+}
+.nnn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+
+
